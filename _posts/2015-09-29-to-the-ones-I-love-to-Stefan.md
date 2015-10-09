@@ -32,5 +32,101 @@ Thank you for sharing even a small part of your beautiful heart, soul and spirit
 
 Actually, like all conversations with Stefan (and everything in this post are things we would discuss), I want to end this post talking about food. 100% organic peanut butter, and in the 500g tubs?!.....mind blown
 
+
+When I finished this post I thought about how others might want to put their memories and thoughts regarding this experience out there, so I asked my closest friends if they wanted to write anything. I will re-post everything they write below.
+
 <hr>
-\* I am considering this post a work in progress, I want the freedom to add to it as and when I think about and miss Stefan.
+
+# Friend Contributions
+
+**Therese W.**
+
+Sunday two weeks ago was one of those (luckily) rare moments in life for me where the world around me just stopped turning. I had the wind knocked out of me. I sat down right where I was, my legs wouldn't hold me up. My hands were shaking. Staring at those black little words on my phone.
+
+"I have the most horrendous news".
+
+That moment when I learned that one of the kindest and most positive people I knew had lost his fight.
+
+\***
+
+It was all very surreal. It had been nearly two weeks since my terminally ill grandfather had come home from the hospital, his last wish being to pass on from his own home, with my grandma there with him.
+
+It' an idyllic notion in a way, to want to die at home.
+
+I'd been there watching my mom and grandma slowly losing all energy, as my grandfather was getting weaker every day. It's hard to be the bystander. It's the most impossible feeling to stand and do nothing as a person you love and who has always been there slowly has to let go of what life he has left.
+
+I will be a doctor in a year and a half. I have just experienced the awful meaning of the words that doctors have to say.
+
+"I'm sorry, there is nothing more we can do".
+And then came that Sunday morning, in the midst of all that loss and all that sorrow that I was already experiencing. Another family I love had lost as well.
+
+\***
+
+"Stefan passed away yesterday morning".
+Bam. World stops. There is a kind of continuous beeping in my head and at the same time as a complete and crushing silence around me.
+
+\***
+
+All I could think was "no. Not now. I was going to see him when I went back to Belgium."
+
+But it is too late.
+
+That's when the tears come, and I curl shakingly into a ball on the couch.
+
+\***
+
+I immediately think back and try to figure out when it was I last saw him. I realize it was in May. I hold on to that day with all my heart, because that day, Stefan was still himself, and we spent such a normal afternoon just chatting, talking about everything.
+
+You could always talk to Stefan about everything.
+
+I have to smile through the waterfalls running down my face.
+
+I mean we could talk about anything.
+
+Stefan was so well informed, opinionated, reasonable. He was also a believer, infinitely positive about life, and infititely hopeful about the future.
+
+I have to smile some more.
+
+What was it that we talked about that afternoon?
+
+My life. His life. What we were up to. What else should two friends be talking about?
+
+But we also talked about the cancer. He was the one who bravely ventured the subject to tell me that the doctors were done. He had just had some more radiation, but that was it. Now he was making plans for the summer. Going to the States.
+
+In my head all my doctor alarm bells were going off. Did I realize what he had just said? My brain asked me.
+
+But before I could reply to myself, Stefan had taken charge and told me exactly what he needed me to think and how he wanted me to react. He wanted me to believe. Believe. Like him.
+
+Put aside the glaring facts and the horror inside and replace all that with simple belief, hope, possibility, and plans for the future.
+
+That is what Stefan did. He gave me such simple answers to what was, in my young and so inexperienced eyes, an impossible situation.
+
+So wise beyond his years. So much reflection and insight. And so completely aware of others' feelings, with such a vast ability to give advice.
+We smiled and laughed. Joked around. Played a zombie playstation game that I definitely did not understand. Ate some sweet potatoes.
+Before I left that day he gave me an enormous hug. I said I hoped he would have a good summer.
+
+\***
+
+I find it amazing that in the midst of so much loss, I can somehow smile and burst out in laughter at the memories.
+
+That's what Stefan did, he gave me so much joy. It's almost impossible to be sad when thinking of him, because his memory overpowers me with his smile and his positivity.
+
+I will always be grateful.
+
+\***
+
+In May he had made me promise not to talk like I had given up on him. That was the condition on which I could come to see him.
+
+I promised.
+
+And I still haven't given up on him.
+
+Because even if he is not here physically, there are so many people wanting to share his memory, his stories, his spirit. And so he is still here. Having shared himself among so many people who will always cherish their own memories and their own part of him.
+
+So Stefan was right. As always.
+
+<hr>
+\* I am considering this post a work in progress, I want the freedom to add to it as and when I think about and miss Stefan - as well as adding contributions.
+
+Last edited: 09/10/15
+<hr>
