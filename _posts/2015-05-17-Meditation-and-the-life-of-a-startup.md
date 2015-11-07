@@ -9,10 +9,7 @@ tags:
   - philosophy
   - entrepreneurship
   - startups
-image:
-  feature: tijn-meditation.jpg
-  credit: http://huntnewsnu.com/
-  creditlink: "http://huntnewsnu.com/files/2015/01/meditation--610x406.jpg"
+imagefeature: tijn-meditation.jpg
 comments: false
 mathjax: null
 featured: false
