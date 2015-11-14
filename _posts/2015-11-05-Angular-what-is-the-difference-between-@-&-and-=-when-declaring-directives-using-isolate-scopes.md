@@ -22,7 +22,7 @@ Honestly the difference between these three symbols is pretty straight forward, 
 - & - pass by method (expression binding)
 - = - pass by reference (two-way data binding)
 
-Explaining stuff in isolation is hard, so lets use a real life example. You have come up with a brilliant product, a t-shirt service (the parent scope), one new shirt every few days (no laundry?). When getting users to sign up, the specific subscription(the child scope, a directive) they chose is down river from the product. The product knows about subscriptions, but subscriptions know nothing about the product. As a result, the parent scope will be the product. That makes the subscription the child scope, and since we are good explicit developers, we are going to use a directive with an isolate scope - see pretty illustration below. Into the Bastille!
+Explaining stuff in isolation is hard, so lets use a real life example. And because we can, let's use a classic one - the glorious ToDo App. The ToDo app itself will always be the parent scope. With this scope we have two different child scopes, the individual ToDo items and a form to add new ToDos. Since we are good explicit developers, we are going to use directives with isolate scopes for both out different types of child scope - see pretty illustration below. Into the Bastille!
 
 <figure>
   <a href="{{ site.url }}/images/tijn-angular-isolate-scope.png"><img src="{{ site.url }}/images/tijn-angular-isolate-scope.png" style="max-height: 250px;"></a>
@@ -30,52 +30,51 @@ Explaining stuff in isolation is hard, so lets use a real life example. You have
 </figure>
 
 # Key 1: -- @ --
-In Angular terms `@` binds an attribute to the isolate scope. This means you are passing in a literal value. Think of it as re-establishing the standard scope structure for the given variable, a specific set of people can now enter the Bastille, but there is no way out. Data can be passed from the parent to the child, but not back up. It is one way, downward communication. In the example below, the parent scope, `my-product`, can update `details` and `my-product-subscription` will see that change, but it cannot tell `my-product` about any change.
+
+### The 'let data in' key
+In Angular terms `@` binds an attribute to the isolate scope. This means you are passing in a literal value. Think of it as re-establishing the standard scope structure for the given variable, a specific set of people can now enter the Bastille, but there is no way out. Data can be passed from the parent to the child, but not back up. It is one way, downward communication - with one catch: you can only pass in primitives. In the example below, the parent scope, `todo-app`, can update `item` and `todo-item` will see that change, but it cannot tell `todo-ap` about any change. As a result, this key is ideal for passing data that only needs to be displayed, such as a ToDo item (in an ideal world where nobody needs to update there ToDos) - but remember, primitives only.
 
 {% highlight html %}
-<my-product>
-  <my-product-subscription plan-details='{ { details } }'></my-product-subscription>
-</my-product>
+<todo-app>
+  <todo-item text ='{ { item } }'></todo-item>
+</todo-app>
 {% endhighlight %}
 
-See a live example [here](http://plnkr.co/edit/7Tyfh74Z2rqBqYNMORdh?p=preview).
+See a live example proving out the concept [here](http://plnkr.co/edit/7Tyfh74Z2rqBqYNMORdh?p=preview).
 
-Useful application:
-To pass visual data into a directive. For example, someone has a subscription to your awesome t-shirt thing and you want to show what subscription they are on in your directive. The parent gives the child directive the details, which promptly displays them - no more communication necessary.
 
 # Key 2: -- & --
-`&` allows you to bind an expression to the child scope. You are literally passing a method into the directive. The cool thing about this is that when the directive's isolate scope calls the method, the method will be executed in the scope of the parent, where it was originally declared.  As a result, it is effectively also one way communication, but in the upward direction. The Bastille has just found a way to actually let people out, but this key can't let anyone(data) in. In this example, the child scope, `my-product-subscription` can call the method `subscribe-to-plan`and it will be executed by `my-product` as `subscribe` in its scope.
+
+### The 'let data out' key
+`&` allows you to bind an expression to the child scope. You are literally passing a method into the directive. The cool thing about this is that when the directive's isolate scope calls the method, the method will be executed in the scope of the parent, where it was originally declared.  As a result, it is effectively also one way communication, but in the upward direction. The Bastille has just found a way to actually let people out, but this key can't let anyone(data) in. In this example, the child scope, `add-todo-form` can call the method `submit-todo-item`and it will be executed by `todo-app` as `add-todo-item` in its scope. As a result, `todo-app` can create a new instance of `todo-item` and display the added item as you might expect.
 
 {% highlight html %}
-
-<my-product>
-  <my-product-subscription subscribe-to-plan='subscribe(details)'></my-product-subscription>
-</my-product>
+<todo-app>
+  <add-todo-form submit-todo-item='add-todo-item(details)'></add-todo-form>
+</todo-app>
 {% endhighlight %}
 
-See a live example [here](http://plnkr.co/edit/7cBkCVK3PoY4qqYUKGM3?p=preview).
+I'm not lying you can see an example of this concept working [here](http://plnkr.co/edit/7cBkCVK3PoY4qqYUKGM3?p=preview).
 
-Useful application:
-To allow a visual element to pass data upwards to a higher level controller. For example, your first customer is ready to buy and they want to select a subscription, so they click on the subscription they want, in his case our isolate child scope. This directive receives this click and calls a method in its parent scope. The parent controller can then perform the correct action, like collecting card details, to then create and persist the subscription.
 
 # Key 3: -- = --
-`=` allows you to establish two-way data binding between the child and parent scopes. You are essentially giving the directive a reference to the value. I like to think of it as a pointer, so that both scopes can update the same memory location. This gives us full two way communication between the scopes - in a way it's a combination of `@` and `&`. Well I think we just found the master key, well ish. Now both `my-product` and `my-product-subscription` can update the `product`. This is identical to the standard two-way data binding used in Angular when you use `ng-model` to bind a controller's model to a view so it can be updated by both.
+
+### The 'let data in and out' key
+`=` allows you to establish two-way data binding between the child and parent scopes. You are essentially giving the directive a reference to the value. I like to think of it as a pointer, so that both scopes can update the same memory location. This gives us full two way communication between the scopes - in a way it's a combination of `@` and `&`. Well I think we just found the master key, well ish. We can now leave our ideal world and let a `todo-item` edit itself, since now both `todo-app` and `todo-item` can update the `item` or `text` depending on which scope you are looking in. This is identical to the standard two-way data binding used in Angular when you use `ng-model` to bind a controller's model to a view so it can be updated by both. Mind you, this means we can now also pass in more than primitives. Instead of just passing in the `todo-item`s text, we could pass in the entire object and display additional information such as due-date or date created. (This could alternatively have been done by passing in each attribute separately, but I'm not a fan of that.)
 
 {% highlight html %}
-<my-product>
-  <my-product-subscription color='color'></my-product-subscription>
-</my-product>
+<todo-app>
+  <todo-item text='item'></todo-item>
+</todo-app>
 {% endhighlight %}
 
-See a live example [here](http://plnkr.co/edit/KHCrnPnzoIYWiZUoD7Wy?p=preview).
+It works! Check it [here](http://plnkr.co/edit/KHCrnPnzoIYWiZUoD7Wy?p=preview).
 
-Useful application:
-To pass data back and forth. The new customer wanted blue t-shirts. Now you ask them to select their subscription, from a selection of nice blue boxes - we want a consistent experience. But in the process you want to let them change to a different color. Here you would need the binding in both ways since the subscription needs to know what color was initially selected for our UI prettification, but it needs to let the parent know if it changed along the way, wouldn't want to ship the wrong color now would we.
 
 # Some Quirks
-Just a few things I have picked up along the way that I thought might stop you from making the same mistakes I did. They're kind of like those tricks you used to open that door in your student house that should probably have had its lock greased or replaced three years ago.
+Only read on if you are comfortable with these concepts. I just want to share a few things I have picked up along the way that I thought might stop you from making the same mistakes I did. They're kind of like those tricks you used to open that door in your student house that should probably have had its lock greased or replaced three years ago.
 
-- The symbols are totally counter-intuitive. When I think pass by value, an `=` would make more sense. Pass by reference makes so much sense as an `@`, but it isn't. Thanks to [Ed Saunders](github.com/seddy) for this observation. Angular seems to like doing counter-intuitive things like this. (Factories are singletons and services aren't, what?!)
+- The symbols are totally counter-intuitive. When I think pass by value, an `=` would make more sense. Pass by reference makes so much sense as an `@`, but it isn't - it's the exact opposite. Thanks to [Ed Saunders](github.com/seddy) for this observation. Angular seems to like doing counter-intuitive things like this. (Factories are singletons and services aren't, what?!)
 - When using `@` make sure to use `{ {} }` in the directive declaration,  otherwise you will just be passing in a string directly. (This can also be used for string interpolation with is cool, for example `plan-details='subscription_number_{{plan.id}}'`.)
 - When using `&` make sure to call the method with an object inside the directive. For example, if you pass it in like this `subscribe-to-plan='subscribe(details)'` the directive would have to call it like this `subscribeToPlan({details: yourDetails})`.
 
@@ -93,5 +92,6 @@ Stack overflow also has a great summary (which also references these egghead vid
 
 [https://stackoverflow.com/questions/14908133/what-is-the-difference-between-vs-and-in-angularjs](https://stackoverflow.com/questions/14908133/what-is-the-difference-between-vs-and-in-angularjs)
 
-You can also download all my examples directly [here](https://github.com/ram535ii/angular-isolate-scope-examples).
+You can also download all my plunker examples directly [here](https://github.com/ram535ii/angular-isolate-scope-examples).
 
+Thanks for reading and may the light shine upon you.
