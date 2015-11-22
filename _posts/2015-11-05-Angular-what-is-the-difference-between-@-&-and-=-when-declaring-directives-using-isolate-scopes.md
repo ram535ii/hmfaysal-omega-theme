@@ -34,7 +34,6 @@ TODO: namecheap pic
 
 # Key 1: -- @ --
 
-### The 'let data in' key
 `@` is used to pass in a literal value, such as a string or number. Data can be passed from the parent to the child, but not back up. It is one way, downward communication - with one catch: you can only pass in primitives. In Angular terms this is called attribute binding (value <-> attribute). In terms of our real life example, this is ideal for passing in the title I told you to imagine. Why not just hard code it I hear you thinking. I want to be able to use the login directive in multiple contexts, such as logging in the first time, but also when a user session has timed out - the title shoudl be different for these two contexts. In the example below, the parent scope, `banking-app`, can update `expiredSessionTitle` and `login-form` will see that change, but it cannot tell `banking-app` about any change. As a result, this key is ideal for passing data that only needs to be displayed, such as a static title - but remember, primitives only.
 
 {% highlight html %}
@@ -43,26 +42,24 @@ TODO: namecheap pic
 </banking-app>
 {% endhighlight %}
 
-See a live example proving out the concept [here](http://plnkr.co/edit/7Tyfh74Z2rqBqYNMORdh?p=preview).
+See a live example proving out the concept [here](http://plnkr.co/edit/WXbifMi5MUD1sfqv7Y3d?p=preview).
 
 
 # Key 2: -- & --
 
-### The 'let data out' key
-`&` gives you the ability to pass a method into a directive. The cool thing about this is that when the directive's isolate scope calls the method, the method will be executed in the scope of the parent, where it was originally declared.  As a result, it is effectively also one way communication, but in the upward direction. In Angular land this is called expression binding (method <-> expression). This is ideal for our login form's close button. The parent scope opened the form pop-up, so it should also be responsible to close it - so path a method in to do that. More concretely - the child scope, `login-form` can call the method `submit-login-close`and it will be executed by `banking-app` as `handle-login-close` in its scope. Now `login-form` does not need to worry about what closing means. You could even pass an argument back with the method call, but that isn't illustrated here.
+`&` gives you the ability to pass a method into a directive. The cool thing about this is that when the directive's isolate scope calls the method, the method will be executed in the scope of the parent, where it was originally declared.  As a result, it is effectively also one way communication, but in the upward direction. In Angular land this is called expression binding (method <-> expression). This is ideal for our login form's close button. The parent scope opened the form pop-up, so it should also be responsible to close it - so path a method in to do that. More concretely - the child scope, `login-form` can call the method `submit-login-close`and it will be executed by `banking-app` as `handleLoginClose` in its scope. Now `login-form` does not need to worry about what closing means. You could even pass an argument back with the method call, but that isn't illustrated here.
 
 {% highlight html %}
 <banking-app>
-  <login-form submit-login-close='handle-login-close()'></login-form>
+<login-form submit-login-close='handleLoginClose()'></login-form>
 </banking-app>
 {% endhighlight %}
 
-I'm not lying you can see an example of this concept working [here](http://plnkr.co/edit/7cBkCVK3PoY4qqYUKGM3?p=preview).
+I'm not lying you can see an example of this concept working [here](http://plnkr.co/edit/WtStUx8X8XSQAddldZJ0?p=preview).
 
 
 # Key 3: -- = --
 
-### The 'let data in and out' key
 `=` is the secret to passing in a value by reference. I like to think of it as a pointer, so that both scopes can update the same memory location. This gives us full two way communication between the scopes - in a way it's a combination of `@` and `&` - this means we can also pass in more than primitives, most importantly objects. Angular refers to this as the now much loved two-way data binding (reference <-> two-way data binding). Now if a user is trying to extend an expired login session we can pass in all the information we want as a single object. This could include their username, time since their session expired, their favorite color - whatever! Our `banking-app` now passes in `userDetails` and `login-form` can happily display all this to the user. It could even let the user update the details on the `banking-app` parent scope, although that isn't useful here. Passing objects into directives is fantastic.
 
 {% highlight html %}
@@ -71,9 +68,9 @@ I'm not lying you can see an example of this concept working [here](http://plnkr
 </banking-app>
 {% endhighlight %}
 
-It works! Check it [here](http://plnkr.co/edit/KHCrnPnzoIYWiZUoD7Wy?p=preview).
+It works! Check it [here](http://plnkr.co/edit/XKfXmqAKamRXAwYWaMn2?p=preview).
 
-Now you know what these three mysterious symbols mean, and you didn't even have to prowl through the _wonderful_ documentation on this specific topic. I just want to extend a thank you to [Maria Stylianou](http://github.com/marsty5) for reading my first draft and an event bigger thank you to [Peter Nixey](http://github.com/peternixey) for going through countless drafts with me.
+Now you know what these three mysterious symbols mean, and you didn't even have to prowl through the _wonderful_ documentation on this specific topic. I've also put together a little example of all three working at the same time [here](http://plnkr.co/edit/ZNWY4dQnBoFHc72RkE2O?p=preview). I just want to extend a thank you to [Maria Stylianou](http://github.com/marsty5) for reading my first draft and an event bigger thank you to [Peter Nixey](http://github.com/peternixey) for going through countless drafts with me.
 
 # Some Quirks
 Only read on if you are comfortable with these concepts. I just want to share a few things I have picked up along the way that I thought might stop you from making the same mistakes I did. They're kind of like those tricks you used to open that door in your student house that should probably have had its lock greased or replaced three years ago.
