@@ -9,7 +9,7 @@ tags:
   - foodielife
 comments: false
 mathjax: null
-featured: true
+featured: false
 published: true
 ---
 
