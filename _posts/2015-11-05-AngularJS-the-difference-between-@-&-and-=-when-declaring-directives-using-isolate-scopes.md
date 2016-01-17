@@ -10,7 +10,7 @@ tags:
 imagefeature: tijn-terminal.png
 comments: false
 mathjax: null
-featured: true
+featured: false
 published: true
 ---
 
