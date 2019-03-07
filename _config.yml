@@ -1,5 +1,5 @@
 title:            Constantijn Ramses Schepens
-description:      "Musings of a hardware geek on web development and Buddhist philosophy"
+description:      "Musings of a hardware geek on software development and Buddhist philosophy"
 logo:             tijn-BadassWhite.png
 # disqus_shortname:
 # Assign a default image for your site's header and footer
@@ -27,7 +27,7 @@ owner:
   avatar:         tijn-ProfilePhoto.JPG
   email:          constantijnschepens+blog@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    I'm an Electronic Engineer, currently working as a Software Engineer based in London, UK. I'm interested in a huge range of stuff, from integrated circuits and web development to meditation, yoga and Buddhist philosophy and everything in between.
+  description:    I'm an Electronic Engineer, currently working as a Software Engineer based in London, UK. I'm interested in a huge range of stuff, from integrated circuits and software development to meditation, yoga and Buddhist philosophy and everything in between.
   # Social networking links used in footer. Update and remove as you like.
   twitter:        CRSchepens
   facebook:       constantijn.schepens
