@@ -12,4 +12,5 @@ Building a bank @ [Monzo](https://monzo.com). I normally write about things I fi
 - some prose about building a bank on a distributed system
 - posts about my thoughts on personal Saving and Investments
 - Apache Kafka something or other
-Though you can't, I clearly need to find more time to blog.
+
+Though you can't read about any of this (yet), I clearly need to find more time to blog.
