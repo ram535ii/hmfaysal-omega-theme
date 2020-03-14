@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /constantijn-ramses-schepens/index.html
+permalink: /about/index.html
 title: Constantijn Ramses Schepens
 tags:
 image:

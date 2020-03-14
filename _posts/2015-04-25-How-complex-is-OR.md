@@ -18,7 +18,7 @@ featured: false
 published: true
 ---
 
-So I alluded to this in my [About]({{site.url}}/constantijn-ramses-schepens/) page and figured I would start there. \<sarcasm> No better way to start a blog than on a light topic right? \</sarcasm> (As a foreigner living in the UK I just want to be fair to everyone, so I'm being explicit - the bane of being a programmer.) So lets dig right in, what is this confusion I am even hoping to discuss?
+So I alluded to this in my [About]({{site.url}}/about) page and figured I would start there. \<sarcasm> No better way to start a blog than on a light topic right? \</sarcasm> (As a foreigner living in the UK I just want to be fair to everyone, so I'm being explicit - the bane of being a programmer.) So lets dig right in, what is this confusion I am even hoping to discuss?
 
 Starting from the top... _OR_, the common logical expression, gives a _true_ output when at least one of its inputs is _true_, otherwise it is _false_. (In hardware _true_ is equivalent to a voltage being applied or _1_, and _false_ is being grounded or _0_) This seems pretty straight forward right, how could this ever confuse me? Well, with a background in hardware I can explain this in language I am familiar with. It depends on whether you evaluate an expression sequentially or combinatorially (hint: JavaScript is sequential, physical logic gates are combinatorial). What does this mean? Let me illustrate.
 
