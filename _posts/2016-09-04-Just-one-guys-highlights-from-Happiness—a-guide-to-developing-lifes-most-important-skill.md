@@ -10,7 +10,7 @@ tags:
 imagefeature: tijn-meditation.jpg
 comments: false
 mathjax: null
-featured: true
+featured: false
 published: true
 ---
 
