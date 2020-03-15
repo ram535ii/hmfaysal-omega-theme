@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Techlead 101: introduction"
+title: "Tech Lead 101: Introduction"
 description: ""
 categories: technical
 tags:
@@ -12,7 +12,7 @@ featured: false
 published: true
 ---
 
-This is the introduction to my series "Techlead 101." Visit the [table of contents]({{site.url}}/technical/Techlead-101) for a full overview of what has been written so far.
+This is the introduction to my series "Tech Lead 101." Visit the [table of contents]({{site.url}}/technical/tech-lead-101) for a full overview of what has been written so far.
 
 ----
 

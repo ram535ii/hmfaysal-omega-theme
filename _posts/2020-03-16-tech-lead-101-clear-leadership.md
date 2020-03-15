@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Techlead 101: clear leadership"
+title: "Tech Lead 101: Clear Leadership"
 description: ""
 categories: technical
 tags:
@@ -12,7 +12,7 @@ featured: false
 published: true
 ---
 
-This is the second post in a series, I'd recommend starting with the [introduction]({{site.url}}/technical/techlead-101-intro). You can find all the other posts in the [table of contents]({{site.url}}/technical/techlead-101).
+This is the second post in a series, I'd recommend starting with the [introduction]({{site.url}}/technical/tech-lead-101-intro). You can find all the other posts in the [table of contents]({{site.url}}/technical/tech-lead-101).
 
 ----
 
@@ -24,7 +24,7 @@ One thing to keep in mind is that even though you are making leadership explicit
 
 ## How do I establish what the leadership is?
 
-In my experience there is a wide spectrum of possibilities. On one end you have a squad lead solely by the product manager. They set goals, communicate with senior leadership, deal with status updates and are generally the only significant interface to and from the squad. On the other end you have a squad lead by a few people, most typically the product manager, techlead and designer. They work on the higher level goals together and share the interfaces with the rest of the team and senior leadership. In between there are all kinds of combinations, with other roles that may make sense to help guide the squad. In my current squad we have a business analyst representing the commerical side of the business in the leadership group, and given our green field commercial focus it makes a huge difference.
+In my experience there is a wide spectrum of possibilities. On one end you have a squad lead solely by the product manager. They set goals, communicate with senior leadership, deal with status updates and are generally the only significant interface to and from the squad. On the other end you have a squad lead by a few people, most typically the product manager, tech lead and designer. They work on the higher level goals together and share the interfaces with the rest of the team and senior leadership. In between there are all kinds of combinations, with other roles that may make sense to help guide the squad. In my current squad we have a business analyst representing the commerical side of the business in the leadership group, and given our green field commercial focus it makes a huge difference.
 
 When figuring out where on this spectrum you and your squad sit, it's useful to look at what is considered the default within your company. My expectation would be that there is a noticeable leaning towards one end or the other. I'd start from the position of that default and then figure out what you think would be best - does it make sense for you to proactively maintain interfaces outside the squad or is it more sensible for your product manager to pull on your for insight when they need it? This single question makes it sound easy, to be fair its not, it will just be so specific to what you're doing that I won't delve into more depth here. But before I move on, a quick, non-exhaustive list of some things I try to have clear ownership for: team health, communicating with senior leadership, staffing, goal setting, progress tracking, socials and more.
 
@@ -46,7 +46,7 @@ Coming back to the implicit leadership, I'd hazard that even without communicati
 - You've increased transparency and been able to clearly communicate what leadership responsibilities exist and why others don't need to worry about them.
 - You've given senior leadership a clear understanding of what to expect from whom.
 - You've made the leadership group itself more effective, responsibilities shouldn't fall through the cracks and now you have a model to iterate on (this is really hard when you don't talk about it openly). Even additional clarity in your own role makes all this worth it.
-- Maybe you've even created a psychologically safe space for yourself to communicate with your co-leads. Remember, you put on the techlead hat in an instant, but learning how to do it well takes time and failure, so optimizing for your own learning and feedback loop is well worth it.
-- You've just put the "lead" in "techlead."
+- Maybe you've even created a psychologically safe space for yourself to communicate with your co-leads. Remember, you put on the tech lead hat in an instant, but learning how to do it well takes time and failure, so optimizing for your own learning and feedback loop is well worth it.
+- You've just put the "lead" in "tech lead."
 
 All of this leads nicely into the next part of the series - what is my responsibility as a tech lead? Coming soon 🔜
