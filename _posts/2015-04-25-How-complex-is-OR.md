@@ -2,7 +2,6 @@
 layout: post
 title: How Complex is OR
 description: ""
-headline: "Complexity where there appears to be none"
 categories: technical
 tags:
   - geeky

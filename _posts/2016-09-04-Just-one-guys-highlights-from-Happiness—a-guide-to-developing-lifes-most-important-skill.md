@@ -2,7 +2,6 @@
 layout: post
 title: "Just one guy's highlights from 'Happiness: a guide to developing life's most important skill'"
 description: ""
-headline: "Book darting your way to an executive summary"
 categories: philosophy
 tags:
   - meditation
