@@ -7,11 +7,6 @@ image:
   <!-- feature: barefoot-ennit.jpg -->
 ---
 
-Building a bank @ [Monzo](https://monzo.com). I normally write about things I find interesting, though in theory that means you should be able to read about:
-- tech leading
-- more philosophical content
-- some prose about building a bank on a distributed system
-- posts about my thoughts on personal Saving and Investments
-- Apache Kafka something or other
+👋 Pleased to meet you, I'm The Barefoot Tech Lead. My name is Constantijn, but in a professional context there seem to be more people that know I don't like to wear shoes than my name, so I'm running with it.
 
-Though you can't read about any of this (yet), I clearly need to find more time to blog.
+Right now you'll fine me building a bank @ [Monzo](https://monzo.com), tech leading (surprise, surprise). As this blog will demonstrate, my interests may stray far and wide, but at the end of the day I'm interested in what makes people tick, what can make us better at being us and how to run the most effective product squad I can. Technically speaking, I have a soft spot for Apache Kafka and distributed systems, with my hardware background peaking through the cracks every once in a while.
