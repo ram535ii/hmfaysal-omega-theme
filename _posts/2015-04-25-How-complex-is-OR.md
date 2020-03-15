@@ -33,7 +33,7 @@ In combinatorial logic, things are evaluated in parallel, with no particular ord
 
 <figure>
   <a href="{{ site.url }}/images/tijn-or.gif"><img src="{{ site.url }}/images/tijn-or.gif"></a>
-  <figcaption><a href="http://ram535ii.github.io/" data-toggle="tooltip" title="Visit my website">An OR Gate</a>.</figcaption>
+  <figcaption><a href="" data-toggle="tooltip" title="||">An OR Gate</a></figcaption>
 </figure>
 
 So with combinatorial logic, the JavaScript above would not have been valid because the second evaluation is impossible. The intended functionality would have been achieved using a nested if, luckily this is not necessary.
