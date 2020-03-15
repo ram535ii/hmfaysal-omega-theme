@@ -2,7 +2,6 @@
 layout: post
 title: Meditation and the Life of a Startup
 description: ""
-headline: "How to take control of life"
 categories: philosophy
 tags:
   - meditation

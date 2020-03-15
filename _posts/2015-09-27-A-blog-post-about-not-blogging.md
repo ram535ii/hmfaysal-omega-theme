@@ -2,7 +2,6 @@
 layout: post
 title: A Blog Post About Not Blogging
 description: ""
-headline: "This shit is hard"
 categories: general
 tags:
   - blogging

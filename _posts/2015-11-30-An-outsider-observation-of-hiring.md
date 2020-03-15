@@ -2,7 +2,6 @@
 layout: post
 title: An outsider observation of hiring
 description: ""
-headline: "Perseverance or acumen?"
 categories: general
 tags:
   - startup

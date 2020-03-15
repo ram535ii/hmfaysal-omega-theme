@@ -2,7 +2,6 @@
 layout: post
 title: AngularJS - the difference between @, & and = when declaring directives using isolate scopes
 description: ""
-headline: "Value, method and reference"
 categories: technical
 tags:
   - geeky

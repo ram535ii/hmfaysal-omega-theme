@@ -2,7 +2,6 @@
 layout: post
 title: To the Ones I Love, To Stefan
 description: ""
-headline: ""
 categories:
 tags:
 comments: false

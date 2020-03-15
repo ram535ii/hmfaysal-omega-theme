@@ -2,7 +2,6 @@
 layout: post
 title: To Vim or not to Vim
 description: ""
-headline: "That is the question"
 categories: technical
 tags:
   - geeky
