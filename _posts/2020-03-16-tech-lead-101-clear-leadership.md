@@ -16,6 +16,12 @@ This is the second post in a series, I'd recommend starting with the [introducti
 
 ----
 
+Let me start by telling you a quick story (or maybe call it a bit of rant).
+
+I had the privelege of being the founding tech lead of the Savings Squad at Monzo. It started out as a minimal squad with a product manager, a backend engineer, two client engineers, a designer and me. No conversation had been had about who was leading the squad, but it was pretty obvious that the product manager and I were largely doing so. Honestly, it was good enough. Fast-forward and the squad has grown, product managers have come and gone (that was tough), we've even had a business analyst join. For all intents and purposes the squad was running _"fine"_ on a day to day basis, but I sure was no longer clear who was making decisions, who should be making them and who held who accountable from in and outside the squad. Overtime a leadership group emerged organically and started meeting sometimes to chat about the longer term, team health - that kind of thing. Others probably didn't know. There was probably someone who should have been in the group (the designer), wasn't and didn't even know it was a thing. It "kind of worked," but we definitely weren't operating at peak performance and we didn't address it for months, yet the days of the early minimal squad were long gone. We needed more clarity. What could we have done differently - let's take a step back and pretend we can start from scratch. (For what its worth, being the longest standing leader throughout this entire experience, I take all the above being fuzzy on me.)
+
+----
+
 Maybe you've just become a tech lead for the very first time, you've joined a new company or you're leading new squad. Where do you start? One of the first things worth doing is explicitly understanding and stating how leadership for that given squad works.
 
 In my experience it's often implicit which person or people are the leadership in a squad, but making this explicit unlocks a more transparent and straight forward way of working - for you, the other members of the squad and even leadership upwards. This raises a few questions. How do I establish what the leadership is? How do I make it explicit? Why did I do this again? Let's take these by turn.
