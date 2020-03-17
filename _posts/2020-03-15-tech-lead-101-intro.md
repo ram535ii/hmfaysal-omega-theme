@@ -31,3 +31,8 @@ In my time so far I tech lead our team launching [overdrafts](https://monzo.com/
 ----
 
 As with all things tech lead, the role can meet quite different things within different companies but also to different people. This series will cover the things I've seen work and the general approach I take. As with all things subjective, your mileage may vary. Please do feel free to reach out with thoughts or questions! ([details here]({{site.url}}/about))
+
+----
+
+{: style="text-align: center"}
+[Clear leadership >]({{site.url}}/technical/tech-lead-101-clear-leadership)

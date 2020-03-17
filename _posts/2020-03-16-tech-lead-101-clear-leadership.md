@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech Lead 101: Clear Leadership"
+title: "Tech Lead 101: Clear leadership"
 description: ""
 categories: technical
 tags:
@@ -56,3 +56,8 @@ Coming back to the implicit leadership, I'd hazard that even without communicati
 - You've just put the "lead" in "tech lead."
 
 All of this leads nicely into the next part of the series - what is my responsibility as a tech lead? Coming soon 🔜
+
+----
+
+{: style="text-align: center"}
+[< Introduction]({{site.url}}/technical/tech-lead-101-intro)   -   [Team before description >]({{site.url}}/technical/tech-lead-101-team-before-description)
