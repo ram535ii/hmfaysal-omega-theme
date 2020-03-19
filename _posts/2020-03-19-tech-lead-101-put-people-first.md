@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech Lead 101: Putting the people first"
+title: "Tech Lead 101: Put the people first"
 description: ""
 categories: technical
 tags:
