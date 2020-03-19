@@ -31,4 +31,4 @@ Almost as if I planned this series, this post leads on wonderfully to the next, 
 ----
 
 {: style="text-align: center"}
-[< Clear leadership]({{site.url}}/technical/tech-lead-101-clear-leadership)
+[< Clear leadership]({{site.url}}/technical/tech-lead-101-clear-leadership)   -   [Put people first >]({{site.url}}/technical/tech-lead-101-put-people-first)
