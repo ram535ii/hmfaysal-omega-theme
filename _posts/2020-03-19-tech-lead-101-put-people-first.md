@@ -35,4 +35,4 @@ See what I did there? Hopefully repetition works. If you prioritise the people y
 ----
 
 {: style="text-align: center"}
-[< Team before description]({{site.url}}/technical/tech-lead-101-team-before-description)
+[< Team before description]({{site.url}}/technical/tech-lead-101-team-before-description)   -   [Personal anti-patterns >]({{site.url}}/technical/tech-lead-101-personal-anti-patterns)
