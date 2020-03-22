@@ -37,6 +37,8 @@ There are many more and I'll try to come back and add them as I see them! Feel f
 
 In conclusion, identify your personal anti-patterns, share them with your team and when you inevitably find yourself falling into one - compassionately acknowledge it and stop, no need to be hard on yourself.
 
+Next up we'll be looking at technical confidence, why it matters and when to get it.
+
 ----
 
 {: style="text-align: center"}
