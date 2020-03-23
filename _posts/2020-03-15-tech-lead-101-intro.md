@@ -34,7 +34,7 @@ As with all things tech lead, the role can mean quite different things within di
 
 ----
 
-While I'm here I'd all like to extend a massive thank you to Aless for her tireless editing, you've really helped my message shine 🙏
+Before we dive in I'd like to quickly say thank you to Aless for her tireless editing on this series, you've really helped my message shine 🙏
 
 ----
 
