@@ -34,5 +34,9 @@ As with all things tech lead, the role can mean quite different things within di
 
 ----
 
+While I'm here I'd all like to extend a massive thank you to Aless for her tireless editing, you've really helped my message shine 🙏
+
+----
+
 {: style="text-align: center"}
 [Clear leadership >]({{site.url}}/technical/tech-lead-101-clear-leadership)
