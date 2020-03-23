@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Tech Lead 101: Clear leadership"
 description: ""

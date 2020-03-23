@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Tech Lead 101: Put the people first"
 description: ""
