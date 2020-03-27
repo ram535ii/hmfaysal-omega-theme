@@ -26,7 +26,7 @@ I work as a tech lead at [Monzo](https://monzo.com/), which means that everythin
  2. I've always worked in product teams/squads. The core Monzo experience is a mobile app, so most product squads will have both an iOS and Android engineer (we build natively on both platforms). All internal tooling for our amazing customer support staff is built in React, so backend engineers are expected to contribute to those appropriately. Core product teams working on this tooling will also have web engineers and over time I imagine others will too! This also means all squads I've worked with have had a product manager.
 3. You'll probably see me use the term team and squad somewhat interchangeably. The smallest unit of delivery is a squad, it should contain all the skillsets needed to deliver the product experience and their key performance indicator.
 
- In my time so far I have tech led our first [overdrafts](https://monzo.com/blog/2018/04/09/making-overdrafts-available) launch, our [savings marketplace](https://monzo.com/blog/2019/04/26/savings-marketplace) and am now tech leading Monzo's Premium offering.
+ In my time so far I have tech led our first [overdrafts](https://monzo.com/blog/2018/04/09/making-overdrafts-available) launch, our [savings marketplace](https://monzo.com/blog/2019/04/26/savings-marketplace) and am now tech leading Monzo's paid account offering.
 
 ----
 
