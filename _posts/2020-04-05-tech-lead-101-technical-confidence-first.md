@@ -32,10 +32,10 @@ So when in doubt, invest in “tech” before the “lead,” it will pay divide
 
 PS: I chose the phrase “technical confidence” intentionally. It naturally implies a level of “technical competence,” because without that it would be “technical over-confidence.” In a similar vein, you can’t be competent in all the technologies your team will be using, so this isn’t a good target. For example, I’m no iOS engineer, but I have technical confidence grounded in a solid technical foundation, enabling me to have constructive conversations that both help iOS engineers in my team directly and inspires confidence. Watch out for a later post on helping engineers in a different discipline from your own.
 
-*Don’t confuse this with eventually building your confidence as a technical leader itself, which comes much later in the journey. Designing complex technical systems at a leader level of abstraction is a whole different technical competence out of scope for this post.
+\*Don’t confuse this with eventually building your confidence as a technical leader itself, which comes much later in the journey. Designing complex technical systems at a leader level of abstraction is a whole different technical competence out of scope for this post.
 
 
 ----
 
 {: style="text-align: center"}
-[< Personal anti-patterns]({{site.url}}/technical/tech-lead-101-personal-anti-patters)
+[< Personal anti-patterns]({{site.url}}/technical/tech-lead-101-personal-anti-patterns)
