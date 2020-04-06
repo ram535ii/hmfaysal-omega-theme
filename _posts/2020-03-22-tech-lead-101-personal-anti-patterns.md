@@ -42,4 +42,4 @@ Next up we'll be looking at technical confidence, why it matters and when to get
 ----
 
 {: style="text-align: center"}
-[< Put people first]({{site.url}}/technical/tech-lead-101-put-people-first)
+[< Put people first]({{site.url}}/technical/tech-lead-101-put-people-first)   -   [Technical confidence first >]({{site.url}}/technical/tech-lead-101-technical-confidence-first)
