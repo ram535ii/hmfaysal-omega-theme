@@ -37,4 +37,4 @@ So when in doubt, invest in “tech” before the “lead,” it will pay divide
 ----
 
 {: style="text-align: center"}
-[< Personal anti-patterns]({{site.url}}/technical/tech-lead-101-personal-anti-patterns)
+[< Personal anti-patterns]({{site.url}}/technical/tech-lead-101-personal-anti-patterns)   -   [If you're not writing code... >]({{site.url}}/technical/tech-lead-101-if-not-writing-code)
