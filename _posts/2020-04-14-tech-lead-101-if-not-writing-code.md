@@ -36,4 +36,4 @@ A few other thoughts that didn’t fit anywhere logically:
 ----
 
 {: style="text-align: center"}
-[< Technical confidence first]({{site.url}}/technical/tech-lead-101-technical-confidence-first)
+[< Technical confidence first]({{site.url}}/technical/tech-lead-101-technical-confidence-first)   -   [Be intentional about habits >]({{site.url}}/technical/tech-lead-101-intentional-habits)
