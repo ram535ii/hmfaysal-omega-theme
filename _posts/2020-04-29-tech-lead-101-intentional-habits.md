@@ -37,4 +37,4 @@ You’ll notice that all these examples are technical in nature. This isn’t to
 ----
 
 {: style="text-align: center"}
-[< If you're not writing code...]({{site.url}}/technical/tech-lead-101-if-not-writing-code)
+[< If you're not writing code...]({{site.url}}/technical/tech-lead-101-if-not-writing-code)   -   [Write for your readers >]({{site.url}}/technical/tech-lead-101-write-for-your-readers)
